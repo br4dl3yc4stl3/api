@@ -1,7 +1,7 @@
 "use strict";
 
 (function() {
-	var url = "http://api.openweathermap.org/data/2.5/weather?q=London,England";
+	var url = "https://api.openweathermap.org/data/2.5/weather?q=London,England";
 	var apiKey = "4d0867c01cdc7c75e105b97051855daf"; // Replace "APIKEY" with your own API key; otherwise, your HTTP request will not work
 	var httpRequest;
 	makeRequest();

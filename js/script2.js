@@ -10,9 +10,9 @@
 			throw Error(response.statusText);
 		}
 		return response.json();
-	}).then(function() {
+	}).then(function(response) {
 		updateUISuccess(response);
-	}).catch(function(error) {
+	}).catch(function() {
 		updateUIError();
 	});
 
